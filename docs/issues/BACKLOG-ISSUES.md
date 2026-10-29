@@ -36,3 +36,6 @@ Formato: `ID | Fase | Título | DoD`. Criar 1 issue por linha ao abrir o repo.
 
 ## Fase 0 — ✅ fechada 29/10 (modo ausente)
 ISS-001 project.godot + presets: OK (import exit 0). ISS-002 save AES + RunDB: OK (testado parse, runtime pendente device). ISS-003 stress + GUT 2/2 verde: OK.
+
+## Fase 1 — ✅ fechada 29/10 (modo ausente)
+ISS-010 player + camera 14m/50graus: OK. ISS-011 input move + joystick: OK (4/4 verde). ISS-012 essence collected: OK.

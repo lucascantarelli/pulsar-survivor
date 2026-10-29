@@ -1,4 +1,4 @@
 extends Node3D
-## Main Fase 0: top-down placeholder. Player + camera entram na ISS-010.
+## Main Fase 1: instancia Player + CameraRig via codigo (cenas em scenes/).
 func _ready() -> void:
     pass

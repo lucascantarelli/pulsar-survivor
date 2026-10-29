@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://pulsaressence1"]
+
+[ext_resource type="Script" path="res://systems/essence.gd" id="1"]
+
+[node name="Essence" type="Area3D"]
+script = ExtResource("1")
