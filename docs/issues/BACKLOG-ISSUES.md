@@ -33,3 +33,6 @@ Formato: `ID | Fase | Título | DoD`. Criar 1 issue por linha ao abrir o repo.
 - ISS-050 | F5 | Mapa floresta + chefes 5/10/15 | run 15min completa
 - ISS-051 | F5 | Hierarquia VFX 4 camadas + slow-mo level-up | playtest 90% legibilidade
 - ISS-052 | F5 | Mix áudio base + QA 2 devices | relatório thermal 15min
+
+## Fase 0 — ✅ fechada 29/10 (modo ausente)
+ISS-001 project.godot + presets: OK (import exit 0). ISS-002 save AES + RunDB: OK (testado parse, runtime pendente device). ISS-003 stress + GUT 2/2 verde: OK.

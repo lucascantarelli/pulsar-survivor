@@ -1,15 +1,19 @@
 extends Node
-## Save Fase 0 ISS-002: ConfigFile AES-256. Nao e autoridade de ranking.
+## Save Fase 0 ISS-002: ConfigFile AES-256. Nao e autoridade de ranking (ver backend-integrator).
 const PATH := "user://save.cfg"
-var _key := "trocar-por-chave-32-bytes-gerada-no-device".to_utf8_buffer()
+func _key32() -> PackedByteArray:
+    var seed := OS.get_unique_id()
+    if seed.is_empty():
+        seed = "pulsar-survivor-local-fallback-key"
+    return seed.sha256_buffer()
 func save_progress(data: Dictionary) -> int:
     var cfg := ConfigFile.new()
     for k in data.keys():
         cfg.set_value("save", str(k), data[k])
-    return cfg.save_encrypted(PATH, _key)
+    return cfg.save_encrypted(PATH, _key32())
 func load_progress() -> Dictionary:
     var cfg := ConfigFile.new()
-    var err := cfg.load_encrypted(PATH, _key)
+    var err := cfg.load_encrypted(PATH, _key32())
     if err != OK:
         return {}
     var out := {}

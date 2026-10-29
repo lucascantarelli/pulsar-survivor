@@ -21,3 +21,5 @@
 - Escrever arquivo em modo texto vira CRLF: gerador deve usar LF explícito; conferir `git status` limpo quando houver git.
 - Godot: sem `project.godot` não há import/teste real; export templates devem casar com versão do editor; presets Android (AAB, OpenJDK 17, keystore release) e Windows (x86_64) separados; segredos fora de `export_presets.cfg`.
 - `grep -H script_class content/*/*.tres` é o smoke test de consistência Base*.
+
+- 29/10 — Fase 0 fechada em modo ausente: project.godot Compatibility + main/stress validos, save AES-256 via OS.get_unique_id().sha256, export_presets Android+Windows, import OK, GUT 9.7.1 2/2 verde. Commits na main.
