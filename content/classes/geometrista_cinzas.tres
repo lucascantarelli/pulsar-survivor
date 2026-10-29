@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="BaseClasse" load_steps=2 format=3]
+[ext_resource type="Script" path="res://content/dados_classe.gd" id="1"]
+[resource script=ExtResource("1")]
+id = "classe_geo"
+nome = "Geometrista de Cinzas"
+arquetipo = "Controlador de área: desenha fractais que queimam e prendem."
+principio_hermetico = "Correspondência: o micro-triângulo espelha a macro-explosão."
+ataque_base_nome = "Triângulos Cinzentos"
+ataque_base_desc = "Dispara 2 fractais giratórios que atravessam 3 inimigos, escalam com Área."
+ataque_cooldown = 1.1
+ataque_projeteis = 2
+unica_nome = "Mandala de Fuligem"
+unica_desc = "Mandala no chão 6s: inimigos dentro lentos + queimando. Evolui com Duração."
+unica_cooldown = 32.0
+vfx_direcao = "Linhas finas âmbar translúcidas, fuligem poolada, sem overdraw. Camada 3."
+mutacao_visual = "Compasso de cinzas flutuante sobre ombro + círculos nos pés."

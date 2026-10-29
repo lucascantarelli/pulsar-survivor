@@ -1,0 +1,5 @@
+extends Node3D
+## Stress Fase 0 ISS-003: 200 dummies. Spawner real entra na Fase 2 (ISS-020/021).
+@export var dummy_count := 200
+func _ready() -> void:
+    pass

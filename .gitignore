@@ -1,0 +1,15 @@
+# Godot
+.godot/
+*.tmp
+*.log
+test-results/
+
+# Android
+android/build/
+local.properties
+*.keystore
+*.jks
+
+# OS
+.DS_Store
+Thumbs.db

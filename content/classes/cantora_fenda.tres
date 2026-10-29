@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="BaseClasse" load_steps=2 format=3]
+[ext_resource type="Script" path="res://content/dados_classe.gd" id="1"]
+[resource script=ExtResource("1")]
+id = "classe_cantora"
+nome = "Cantora de Fenda"
+arquetipo = "Suporte ofensivo rítmico: empurra horda com onda sonora."
+principio_hermetico = "Ritmo + Causa e Efeito: cada nota marca, o refrão detona."
+ataque_base_nome = "Arpejo Cortante"
+ataque_base_desc = "Onda sonora em cone que empurra leves e marca Ressonância."
+ataque_cooldown = 0.9
+ataque_projeteis = 1
+unica_nome = "Refrão Abissal"
+unica_desc = "Detona todas as marcas Ressonância na tela + escudo breve por kill."
+unica_cooldown = 28.0
+vfx_direcao = "Ondas concêntricas violeta 60% + flash branco 0.1s só em elite. Camada 2/3."
+mutacao_visual = "Gargantilha vibrante + véu sonoro nas costas."

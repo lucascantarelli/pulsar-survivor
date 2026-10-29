@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="BaseRaca" load_steps=2 format=3]
+[ext_resource type="Script" path="res://content/dados_raca.gd" id="1"]
+[resource script=ExtResource("1")]
+id = "raca_var"
+nome = "Vár-Brjóst"
+origem = "Clã nórdico-esotérico do Peito de Vár. Juraram respirar no ritmo da Fenda para não enlouquecer."
+principio_hermetico = "Ritmo: tudo pulsa. Quem segue o compasso atrai e devasta."
+passiva_nome = "Compasso da Maré"
+passiva_desc = "Pulso a cada 4s: +35% atração de Essência por 1.5s e +10% dano por 2s."
+passiva_valores = {"periodo": 4.0, "atracao_pct": 0.35, "dano_pct": 0.1}
+ativa_nome = "Batida Sísmica"
+ativa_desc = "Onda circular que empurra horda e marca elites com Ressonância (tomam +15% dano 5s)."
+ativa_cooldown = 18.0
+ativa_raio = 7.0
+vfx_direcao = "Onda de runas azul-gelo translúcida 60%, anel no chão 0.6s. Camada 3."
+mutacao_visual = "Veios rúnicos ciano no torso que pulsam no ritmo."
