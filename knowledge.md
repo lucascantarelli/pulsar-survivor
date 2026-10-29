@@ -29,3 +29,5 @@
 - 29/10 — Fase 2 fechada em modo ausente: spawner.gd central + grid + MultiMesh 1000, spawn_rule borda 18m, GUT 9.7.1 6 scripts 7/7 verde.
 
 - 29/10 — Fase 3 fechada: .tres convertidos p/ formato Godot 4.7 nativo ([resource] + script como propriedade; formato Godot 3 inline era ignorado e deixava get_script()=null). run_manager load_combo + 4 sinergias, GUT 8 scripts 10/10.
+
+- 29/10 — Fase 4 nucleo local fechado: meta.gd (Forja 50*1.6^lvl, Mastery x1.15/x1.2, Reliquias cap 4), backend.gd outbox idempotente, schema.sql RLS + Edge esqueleto, GUT 10 scripts 14/14.
