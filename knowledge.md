@@ -33,3 +33,5 @@
 - 29/10 — Fase 4 nucleo local fechado: meta.gd (Forja 50*1.6^lvl, Mastery x1.15/x1.2, Reliquias cap 4), backend.gd outbox idempotente, schema.sql RLS + Edge esqueleto, GUT 10 scripts 14/14.
 
 - 29/10 — Planejamento completo antes de seguir implementacao: 22 issues detalhadas (ISS-001..052 + EPIC Fase 5), catalogo recursos-gratuitos CC0, enredo-temas, mapa-floresta. Testes seguem 14/14.
+
+- 29/10 — ISS-041 wired: schema.sql (runs + leaderboard RLS + unique), Edge submit-score (JWT + bounds + kill-rate + upsert idempotente), supabase_client.gd (validacao espelho + configure sem hardcode), DEPLOY.md. SUPABASE_PASS ausente neste shell — deploy pendente. GUT 16/16.
