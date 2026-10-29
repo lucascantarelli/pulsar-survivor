@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="BaseRaca" load_steps=2 format=3]
-[ext_resource type="Script" path="res://content/dados_raca.gd" id="1"]
-[resource script=ExtResource("1")]
+[gd_resource type="Resource" script_class="BaseRaca" format=3]
+[ext_resource type="Script" path="res://content/dados_raca.gd" id="1_raca"]
+[resource]
+script = ExtResource("1_raca")
 id = "raca_khemri"
 nome = "Khemri Cinzenta"
 origem = "Necrópole afundada de Khemri (Egito esotérico). Sacerdotes que trocaram a mumificação pela Fenda."

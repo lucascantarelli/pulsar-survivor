@@ -42,3 +42,6 @@ ISS-010 player + camera 14m/50graus: OK. ISS-011 input move + joystick: OK (4/4 
 
 ## Fase 2 — ✅ fechada 29/10 (modo ausente)
 ISS-020 grid + spawn_rule: OK. ISS-021 MultiMesh 1000 + pooling logico (reuso de slots): OK 7/7 verde. ISS-022 LOD minimo (1 material BoxMesh, blob shadow na Fase 5 com arte final).
+
+## Fase 3 — ✅ fechada 29/10
+ISS-030 4 .tres abrem com script (formato 4.7 nativo): OK. ISS-031 passivas/ativas 2x2 via run_manager: OK. ISS-032 4 sinergias: OK 10/10 verde.
