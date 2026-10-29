@@ -25,3 +25,5 @@
 - 29/10 — Fase 0 fechada em modo ausente: project.godot Compatibility + main/stress validos, save AES-256 via OS.get_unique_id().sha256, export_presets Android+Windows, import OK, GUT 9.7.1 2/2 verde. Commits na main.
 
 - 29/10 — Fase 1 fechada em modo ausente: player CharacterBody3D + camera_rig + joystick + essence, input move WASD/setas, main/stress validos, GUT 9.7.1 4/4 verde.
+
+- 29/10 — Fase 2 fechada em modo ausente: spawner.gd central + grid + MultiMesh 1000, spawn_rule borda 18m, GUT 9.7.1 6 scripts 7/7 verde.

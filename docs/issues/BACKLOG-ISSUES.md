@@ -39,3 +39,6 @@ ISS-001 project.godot + presets: OK (import exit 0). ISS-002 save AES + RunDB: O
 
 ## Fase 1 — ✅ fechada 29/10 (modo ausente)
 ISS-010 player + camera 14m/50graus: OK. ISS-011 input move + joystick: OK (4/4 verde). ISS-012 essence collected: OK.
+
+## Fase 2 — ✅ fechada 29/10 (modo ausente)
+ISS-020 grid + spawn_rule: OK. ISS-021 MultiMesh 1000 + pooling logico (reuso de slots): OK 7/7 verde. ISS-022 LOD minimo (1 material BoxMesh, blob shadow na Fase 5 com arte final).
