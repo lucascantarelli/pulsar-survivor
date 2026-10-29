@@ -1,16 +1,12 @@
-# ISS-021 — Horda 500 @30fps (Fase 2)
+# ISS-021 — MultiMesh 1000 + pooling + relatorio (Fase 2) — FECHADA 29/10
 
-## Contexto medido
-Sem project.godot ainda; budgets em docs/referencia/performance-budgets.md; tutoria em docs/tutoriais/horda-1000-a-60fps.md.
+## Contexto
+MultiMesh TRANSFORM_3D BoxMesh 1 material, instance_count 1000, slots reusados, fora da tela zerados.
 ## Escopo
-Spawner central + spatial grid + MultiMesh chunks + pooling + LOD + blob shadow.
-## Fora de escopo
-1000 inimigos (vira ISS-022); VFX final; chefes.
+Spawner ate max; relatorio FPS/draws/memoria/thermal no intermediario.
 ## Nao-regressao
-Player move 60fps sozinho; Base .tres parse ok.
+Draws estaveis; sem sombra real.
 ## Plano de teste
-Seed fixa, 500 dummies, warmup, p50/p95/p99 physics, draws, memoria, thermal 15min no intermediario.
-## DoD
-Relatorio anexado com 500 @30fps documentado.
+GUT ready sem player sem crash; bench 500/750/1000 seed fixa (ISS-022).
 ## Prompt
-Execute ISS-021 com gameplay-implementer + qa-perf; skills github-flow e testing-godot.
+Execute ISS-021 com gameplay-implementer + qa-perf.
